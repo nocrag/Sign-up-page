@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+body{
+    background-color: #FF7979;
+    background-image: url(imagem-de-fundo.png);
+    margin: 100px;
+    font-family: Poppins, sans-serif;
+    
+}
+h1 {
+    font-size: 50px;
+    margin-top: 300px;
+    color: #FFFF;
+    font-weight: 700;
+    line-height: 55px;
+}
+.container{ 
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-texto {
+    width: 615px;
+
+}
+.container-texto p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFFF;
+}
+.card-anuncio {
+    height: 60px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    color: beige;
+    background-color: #5E54A4;
+    font-weight: 400;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+    display: flex;
+    justify-content: center;
+}
+.card-anuncio em {
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.card-cadastro {
+    height: 472px;
+    width: 540px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+
+}
+.card-cadastro p {
+    color: grey;
+    font-size: 11px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+input {
+    margin: 10px;
+    height: 26px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    font-size: 14px;
+    font-weight: 600;
+}
+input:focus {
+    border: 1px solid #5E54A4;
+    outline: none;
+    font-weight: 600;
+  }
+
+button {
+    margin: 10px;
+    width: 520px;
+    height: 56px;
+    background-color: #38CC8B;
+    color: #FFFF;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+    border: none;
+    letter-spacing: 1px;
+}
+button:focus{
+    background: #77E2B3
+}
+
+.card-cadastro p {
+    color: #BAB7D4;
+    margin: 10px;
+}
+
+.card-cadastro a {
+    color: #FF7979;
+}
